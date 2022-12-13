@@ -100,6 +100,8 @@ router.delete('/goods/:goodsId/cart', async (req, res) => {
 module.exports = router;        // 바깥에서 접근할 수 있도록 exports. 즉 이 파일에 접근하면 router 를 반환하는거야.
 
 
+
+
 // /routes/goods.js
 const goods = [
     {
